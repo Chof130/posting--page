@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Meu Projeto Post</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>Criar Postagem</h1>
+
+        <form id="formulario-post">
+          <label>Título:</label><br />
+          <input type="text" id="titulo-input" />
+
+          <br /><br />
+
+          <label>Texto do post:</label><br />
+          <textarea id="conteudo-input" rows="4"></textarea>
+
+          <br /><br />
+
+          <button type="submit" id="botao-enviar">Postar Agora</button>
+        </form>
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Postagens Renderizadas:</h2>
+        <article>
+          <h2 id="renderizador-titulo"></h2>
+          <p id="renderizador-conteudo"></p>
+        </article>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
